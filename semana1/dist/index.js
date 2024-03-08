@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Cachorrinho_1 = require("./Cachorrinho");
+const Cao_1 = require("./Cao");
+console.clear();
+let pluto = new Cao_1.default("Pluto");
+pluto.corre();
+let bidu = new Cachorrinho_1.default("Bidu");
+bidu.corre();
+bidu.latir();
